@@ -548,7 +548,7 @@ footer{
         position: absolute;
         right: 5vw;
         top: 10vh;
-        background-color: #F0E9DB80;
+        background-color: var(--alabaster);
     }
 
     .nav-buttons.responsive a {

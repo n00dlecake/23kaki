@@ -17,22 +17,25 @@
 	</head>
 
 	<body>
+		<!-- Background -->
+		<div class="background"></div>
+
 		<!-- Top Nav Bar -->
 		<div class="nav-bg">
 			<nav>
 				<a href="#landing-area" class="nav-title"
 					><span><span class="gold">23</span> Kakī</span> Crackers</a
 				>
-				<div class="nav-buttons">
-					<a href="#work">Work</a>
+				<div class="nav-buttons" id="navButtons">
+					<a href="#gallery">Gallery</a>
 					<a href="#about">About</a>
 					<a href="#contact">Contact</a>
+					<a href="javascript:void(0);" class="icon" onclick="menuFunction()">
+						<i class="bi bi-list"></i>
+					</a>
 				</div>
 			</nav>
 		</div>
-
-		<!-- Background -->
-		<div class="page-bg"></div>
 
 		<main>
 			<!--Overlay for modals-->
@@ -67,41 +70,38 @@
 						<button data-close-button class="close-button">&times;</button>
 					</div>
 					<div class="modal-body" style="align-items: center; padding: 2em">
-						<h3>More project info is coming soon...</h3>
+						<h3>More info coming soon...</h3>
 					</div>
 				</div>
 			</div>
 
 			<section id="landing-area">
+				<div class="nav-spacer"></div>
 				<div class="hero">
 					<div>
-						<iframe
-							src="https://embed.figma.com/proto/fAoRfk9wOv5ogAO6npPqHx/Art-App?node-id=63-3938&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=63%3A3452&starting-point-node-id=63%3A3938&embed-host=share"
-							allowfullscreen></iframe>
+						<img src="/assets/images/egg-shell.png" alt="broken egg shells" />
 					</div>
 					<!-- <div id="container3D"></div> -->
 					<div class="hero-text">
-						<h1>Digital Designer</h1>
+						<h1>
+							<span>Welcome to</span><br />
+							23 Kakī
+						</h1>
 						<p>
-							As an ambitious UX designer and avid consumer of digital content,
-							I am keenly aware of the vast amount of material occupying our
-							digital spaces. This awareness has led me to form a deep passion
-							for the creation of meaningful content in an effort to contribute
-							only impactful work online.
-							<br />
-							<br />
-							The featured portfolio piece is an application called Mahere Mahi
-							Toi,
-							<a data-modal-target="#modal">click here for more information.</a>
+							Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+							cupiditate unde nulla fuga minima quis iste quisquam consequuntur,
+							quaerat modi dicta non expedita autem corporis sapiente
+							repellendus consequatur eum distinctio!
 						</p>
 					</div>
 				</div>
 			</section>
 
-			<section id="work">
-				<div class="work-title">
-					<h2>Portfolio</h2>
-					<p>Select a piece of work below to find out more about it!</p>
+			<section id="gallery">
+				<div class="nav-spacer"></div>
+				<div class="gallery-title">
+					<h2>Kakī <span>Gallery</span></h2>
+					<p>Select an image below to find out more!</p>
 				</div>
 				<div
 					id="image-carousel"
@@ -111,79 +111,59 @@
 						<ul class="splide__list">
 							<li class="splide__slide">
 								<img
-									data-modal-target="#modal"
-									src="asessts/images/mahere-mahi-toi/mahere-mahi-toi-wide-collage.jpg" />
+									data-modal-target="#comming-soon-modal"
+									src="/assets/images/kaki-photo-01.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/cafe-re-floral.jpg" />
+									src="/assets/images/kaki-photo-04.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/whispering-intro.gif" />
+									src="/assets/images/kaki-photo-06.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/sophronia.jpg" />
+									src="/assets/images/kaki-photo-09.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/trebuchet.jpg" />
+									src="/assets/images/kaki-photo-07.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/eye.jpg" />
+									src="/assets/images/kaki-photo-10.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/radioactive-donut.jpg" />
+									src="/assets/images/kaki-photo-08.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/flower-bee.jpg" />
+									src="/assets/images/kaki-photo-11.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/mimikyu.jpg" />
+									src="/assets/images/kaki-photo-15.JPG" />
 							</li>
 							<li class="splide__slide">
 								<img
 									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/stipple-mountains.jpg" />
-							</li>
-							<li class="splide__slide">
-								<img
-									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/matariki-biscuits.jpg" />
-							</li>
-							<li class="splide__slide">
-								<img
-									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/texture.jpg" />
-							</li>
-							<li class="splide__slide">
-								<img
-									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/yin-yang-fish.jpg" />
-							</li>
-							<li class="splide__slide">
-								<img
-									data-modal-target="#comming-soon-modal"
-									src="/asessts/images/whispering-storyboard.jpg" />
+									src="/assets/images/kaki-photo-12.JPG" />
 							</li>
 						</ul>
 					</div>
 				</div>
 				<!--Modals-->
-				<div>
+				<!-- <div>
 					<div class="modal" id="modal">
 						<div class="modal-close-bar">
 							<button data-close-button class="close-button">&times;</button>
@@ -215,49 +195,40 @@
 							</button>
 						</div>
 					</div>
-				</div>
+				</div> -->
 			</section>
 
+			<!-- About Section -->
 			<section id="about">
+				<div class="nav-spacer"></div>
 				<div class="about">
-					<img src="asessts/images/headshot.jpg" alt="headshot" />
+					<img src="/assets/images/kaki-photo-14.JPG" />
 					<div class="about-text">
+						<h2>About <span>Our Story</span></h2>
 						<p>
-							Kia ora,
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+							recusandae optio et! Esse delectus quae ratione repellendus quia
+							quam laborum incidunt optio vitae eligendi quod cupiditate commodi
+							nam, saepe molestiae? Accusantium est labore alias doloribus non
+							beatae soluta, officiis accusamus ipsum tempore ut dolore enim
+							iusto repellat nulla exercitationem vitae molestias omnis nisi!
 							<br /><br />
-							I am a recent graduate of a Bachelor of Communication Design with
-							a diverse background including, tertiary lecturing, health
-							sciences, trade, beauty therapy, hospitality, management, and
-							retail. While varied, all of these experiences have bolstered my
-							communication skills and given me a unique lens to wield when
-							engaging in problem solving.
-							<br /><br />
-							I see myself as someone who is fueled by eclectic creativity with
-							a genuine appreciation for authenticity. I like to approach
-							challenges enthusiastically and with as much relevant research as
-							I can to aid in efficiently finding solutions, always aiming to
-							transform them into opportunities.
-							<br /><br />
-							My commitment to learning is core to who I am, which helps to
-							quickly pick up new skills. Embracing biculturalism and
-							sustainability as guiding principles, I strive towards genuine
-							innovation, consistently redefining what my best looks like.
-							<br /><br />
-							I'm open to opportunities and flexible about my future so don’t
-							hesitate to get in touch if you have a creative goal that we can
-							achieve together.
-							<br /><br />
-							Thank you for stopping by 😊
+							Ipsum quisquam voluptatem recusandae natus ab iste? Explicabo nisi
+							veniam facere, omnis architecto ea illum! Suscipit quis ipsum
+							ducimus hic, maiores porro in ullam sapiente doloribus vitae.
+							Nesciunt fugit quas ut cumque ab consequatur. Consequuntur,
+							distinctio explicabo.
 						</p>
 					</div>
 				</div>
 			</section>
 
 			<section id="contact">
+				<div class="nav-spacer"></div>
 				<!--Contact Form-->
 				<form action="action_page.php">
 					<div class="contact-container">
-						<h2>Contact</h2>
+						<h2>Contact <span>Drop us a line</span></h2>
 
 						<input type="text" placeholder="Name" name="name" required />
 						<input
@@ -274,17 +245,9 @@
 
 		<footer>
 			<div class="socials">
-				<a
-					href="https://www.linkedin.com/in/georgeblair-profile/"
-					target="_blank"
-					><i class="bi bi-linkedin"></i
-				></a>
-				<a href="mailto:orphanedmoonstudio@gmail.com"
-					><i class="bi bi-envelope"></i
-				></a>
-				<a href="https://www.instagram.com/orphaned_moon/" target="_blank"
-					><i class="bi bi-instagram"></i
-				></a>
+				<a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+				<a href="mailto:"><i class="bi bi-envelope"></i></a>
+				<a href="" target="_blank"><i class="bi bi-instagram"></i></a>
 			</div>
 			<div class="licensing">
 				<p>
@@ -296,14 +259,15 @@
 			</div>
 		</footer>
 		<script src="/javascript/popup.js"></script>
-		<script type="module" src="three.js"></script>
+		<script src="/javascript/menu.js"></script>
 		<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
 		<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.5.3/dist/js/splide-extension-auto-scroll.min.js "></script>
 		<script>
 			document.addEventListener("DOMContentLoaded", function () {
 				new Splide("#image-carousel", {
 					type: "loop",
-					height: "32rem",
+					height: "30vh",
+					width: "100%",
 					drag: "free",
 					focus: "center",
 					perPage: 3,

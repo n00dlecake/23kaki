@@ -503,31 +503,35 @@ footer{
     }
 
     /*----- About Section -----*/
-        .about{
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-        }
-        .about h2{
-            width: 80%;
-            line-height: 60%;
-        }
-        .about img{
-            border-radius: 35px;
-            max-height: 100%;
-        }
+    .about{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .about h2{
+        width: 80%;
+        line-height: 60%;
+    }
+    .about img{
+        border-radius: 35px;
+        max-height: 100%;
+    }
     /*----- Contact Section -----*/
-        .contact-container h2{
-            font-size: 4rem;
-            width: 70%;
-            line-height: 60%;
-            text-align: center;
-        }
-        .contact-container h2 span{
-            font-size: 2rem;
-        }
-        input[type=text], input[type=submit] {
-            width: 70%;
-        }
+    .contact-container h2{
+        font-size: 4rem;
+        width: 70%;
+        line-height: 60%;
+        text-align: center;
+    }
+    .contact-container h2 span{
+        font-size: 2rem;
+    }
+    input[type=text], input[type=submit] {
+        width: 70%;
+    }
+    /*----- Footer -----*/  
+    .footer p{
+        text-align: center;
+    }
         
   }
 

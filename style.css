@@ -149,7 +149,7 @@ nav a{
     display: none;
     border: none;
     font-size: 2rem;
-    padding: 0;
+    padding: 0 0.2em;
     margin: 0;
 }
 /*----- Main -----*/
